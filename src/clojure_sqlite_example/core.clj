@@ -1,5 +1,7 @@
 (ns clojure-sqlite-example.core
-  (:require [clojure.java.jdbc :refer :all]))
+  (:require [clojure.java.jdbc :refer :all]
+            [honeysql.core :as sql]
+            [honeysql.helpers :refer :all]))
 
 (def testdata
   {:date "2011-9-12",

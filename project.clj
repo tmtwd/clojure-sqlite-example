@@ -2,4 +2,5 @@
   :description "A simple example of using SQLite with Clojure"
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [org.clojure/java.jdbc "0.3.5"]
-                 [org.xerial/sqlite-jdbc "3.7.2"]])
+                 [org.xerial/sqlite-jdbc "3.7.2"]
+                 [honeysql "0.6.2"]])
